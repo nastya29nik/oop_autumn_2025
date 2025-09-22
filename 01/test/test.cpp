@@ -50,12 +50,12 @@ TEST(test_08, box_capacity_test_set)
 
 TEST(test_09, box_capacity_test_set)
 {
-    EXPECT_EQ(TimatyPizza::boxCapacity(10.5 , 8.25, 9.75), 294);
+    EXPECT_EQ(TimatyPizza::boxCapacity(10.5, 8.25, 9.75), 294);
 }
 
 TEST(test_10, box_capacity_test_set)
 {
-    EXPECT_EQ(TimatyPizza::boxCapacity(0.1 , 0.1, 0.1), 0);
+    EXPECT_EQ(TimatyPizza::boxCapacity(0.1, 0.1, 0.1), 0);
 }
 
 TEST(test_11, box_capacity_test_set)
