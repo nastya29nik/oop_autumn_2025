@@ -1,7 +1,10 @@
 #pragma once
 
+#include <cstdint>
+#include <iostream>
+
 namespace TimatyPizza {
 
-int boxCapacity(double length, double width, double height);
+int64_t boxCapacity(double length, double width, double height);
 
 }

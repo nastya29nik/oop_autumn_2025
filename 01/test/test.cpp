@@ -68,6 +68,11 @@ TEST(test_12, box_capacity_test_set)
     EXPECT_EQ(TimatyPizza::boxCapacity(100.0, 50.0, 30.0), 61050);
 }
 
+TEST(test_13, box_capacity_test_set)
+{
+    EXPECT_EQ(TimatyPizza::boxCapacity(10000, 10000, 10000), 421875000000);
+}
+
 
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
